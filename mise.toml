@@ -1,0 +1,5 @@
+[tools]
+rust = "latest"
+node = "lts"
+bun = "latest"
+java = "openjdk-25"
