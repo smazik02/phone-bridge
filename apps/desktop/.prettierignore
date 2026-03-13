@@ -1,0 +1,7 @@
+.svelte-kit
+.vscode
+.idea
+node_modules
+src-tauri
+static
+bun.lock
