@@ -29,4 +29,8 @@ tokio-tungstenite = "0.28.0"
 axum = "0.8.8"
 security-framework = "3.7.0"
 keyring = "3.6.3"
+tokio = {version = "1.50.0", features = ["full"] }
+tokio-util = {version = "0.7.18", features = ["default"] }
+log = "0.4.29"
+tauri-plugin-log = "2"
 
