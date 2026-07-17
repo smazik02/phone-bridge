@@ -24,5 +24,5 @@ tokio-tungstenite = "0.30.0"
 tokio-util = "0.7.18"
 
 [lib]
-crate-type = ["cdylib", "staticlib"]
+crate-type = ["rlib", "cdylib", "staticlib"]
 name = "phonebridge"

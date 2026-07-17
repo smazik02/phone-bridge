@@ -1,7 +1,13 @@
+use phonebridge::add;
+
 // Learn more about Tauri commands at https://tauri.app/develop/calling-rust/
 #[tauri::command]
 fn greet(name: &str) -> String {
-    format!("Hello, {}! You've been greeted from Rust!", name)
+    format!(
+        "Hello, {}! You've been greeted from Rust! 2 + 2 = {}",
+        name,
+        add(2, 2)
+    )
 }
 
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
