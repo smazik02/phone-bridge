@@ -23,6 +23,9 @@ tokio-rustls = "0.26.4"
 tokio-tungstenite = "0.30.0"
 tokio-util = "0.7.18"
 
+[target.'cfg(target_os = "android")'.dependencies]
+android_logger = "0.15.1"
+
 [lib]
 crate-type = ["rlib", "cdylib", "staticlib"]
 name = "phonebridge"
